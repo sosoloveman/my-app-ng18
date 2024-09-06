@@ -97,7 +97,13 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/my-app-ng18/",
+            "name": "Satine",
+            "email": "sosoloveman@gmail.com",
+            "repo": "https://github.com/sosoloveman/my-app-ng18.git"
+          }
         }
       }
     }
