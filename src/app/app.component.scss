@@ -1,0 +1,40 @@
+section {
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  background: url("../assets/images/bg.jpg");
+
+  > div {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    width: 290px;
+    height: 120px;
+    background: url("../assets/images/logo.png");
+  }
+
+  h1 {
+    font-weight: bold;
+    color: #fc0;
+  }
+
+  h2 {
+    font-weight: bold;
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .btn-outline-light {
+    border: none;
+    background-color: #d48419;
+
+    &:hover {
+      background-color: #fc0;
+    }
+  }
+}
