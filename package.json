@@ -38,6 +38,6 @@
     "typescript": "~5.5.2"
   },
   "browserslist": [
-    "Safari >=12"
+    "Safari >= 12"
   ]
 }
