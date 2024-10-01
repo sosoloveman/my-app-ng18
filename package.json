@@ -45,5 +45,15 @@
     "vite": {
       "rollup": "npm:@rollup/wasm-node"
     }
-  }
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions",
+    "last 1 Chrome version",
+    "last 1 Firefox version",
+    "last 2 Edge major versions",
+    "Safari >=12",
+    "IOS >=12",
+    "Firefox ESR"
+  ]
 }
